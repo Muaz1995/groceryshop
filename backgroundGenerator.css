@@ -1,0 +1,104 @@
+body {
+	font:'Raleway',sans-serif;
+	color: rgba(0,0,0,.5);
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: .5em;
+	top: 15%;
+	background: linear-gradient(to right, red, yellow); /*This is what creates the background gradient*/
+}
+.header {
+	margin-top: 50px;
+}
+
+h1 {
+	font:600 3.5em 'Raleway', sans-serif;
+	color: rgba(0,0,0,.5);
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	width: 100%
+}
+
+h3 {
+	font:900 1em 'Raleway',sans-serif;
+	color: rgba(0,0,0,.5);
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 0.01em;
+}
+
+.col1 {
+	text-align: center;
+}
+
+.col2,.col3 {
+	margin-top: 90px;
+}
+.col3{
+	text-align: center;
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
+
+#userinput {
+ /* Text field for new items */
+  background: #CAE9FF;
+  color: ##6F808C;
+  border: 2px solid #6F808C;
+  height: 60px;
+  width: 100%;
+  border-radius: 10px 10px 10px 10px;
+  text-align: center;
+  transition: all .2s;
+}
+
+#userinput:hover {
+	/* Text field hover effect */
+  background: #EBF7FF;
+}
+
+.custBtn {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  background: transparent;
+  color: #6F808C;
+  width: 40px;
+  height: 60px;
+  border: 3px solid transparent;
+  border-left: 0px;
+  border-radius: 0 10px 10px 0;
+  transition: all .2s;
+}
+  
+.custBtn:hover {
+  color: #A6BFD1;
+  cursor: pointer;
+}
+
+.custBtn:focus {
+  outline: none;
+  
+}
+
+/*.button1 {
+ display:inline-block;
+ padding:0.3em 1.2em;
+ margin:0 0.3em 0.3em 0;
+ border-radius:2em;
+ box-sizing: border-box;
+ text-decoration:none;
+ font-family:'Roboto',sans-serif;
+ font-weight:300;
+ color:#FFFFFF;
+ background-color:#4eb5f1;
+ text-align:center;
+ transition: all 0.2s;
+}
+.button1:hover{
+ background-color:#4095c6;
+}*/
